@@ -49,6 +49,11 @@
             <artifactId>aws-java-sdk-signer</artifactId>
             <version>1.11.610</version>
         </dependency>
+            <dependency>
+        <groupId>com.amazon.SellingPartnerAPIAA</groupId>
+        <artifactId>sellingpartnerapi-aa-java</artifactId>
+        <version>1.0.0-2021.09.02</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -73,6 +78,13 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.0.0</version>
+            <scope>test</scope>
+        </dependency>
+
+                <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>3.9.0</version>
             <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
